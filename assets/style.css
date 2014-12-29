@@ -1,0 +1,39 @@
+body {
+	animation-name: pulse;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: pulse;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	}
+
+	@keyframes pulse {
+	0% {
+	  background-color: #ed1c24;
+	}
+	100% {
+	  background-color: #ff000a;
+	}
+	}
+
+	@-webkit-keyframes pulse {
+	0% {
+	  background-color: #ed1c24;
+	}
+	100% {
+	  background-color: #ff000a;
+	}
+}
+
+div {
+	display: inline-block;
+	margin: 2%;
+	font-size: 5em;
+}
+
+#header {
+	margin-left: 25%;
+	margin-right: 25%;
+}
