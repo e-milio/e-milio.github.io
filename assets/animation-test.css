@@ -96,6 +96,7 @@ div {
 	-webkit-animation-duration: 5s;
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
+	
 }
 .tap:nth-of-type(1){
 	animation-name: yAxisSpin1;
