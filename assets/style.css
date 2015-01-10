@@ -73,29 +73,7 @@ body {
 	margin: auto;
 }
 
-@media all and (width: < 985px) {
-	
-	#container {
-	width: 100%;
-	max-width: 700px;
-	margin: auto;
-	}
-
-	#buttonContainer {
-	width: 100%;
-	max-width: 700px;
-	margin: auto;
-	}
-
-	#button {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	display: inline-block;
-	}
-
-}
-
-@media all and (width: 320px) {
+@media all and (width: < = 414px) {
 	
 	#container {
 	width: 100%;
