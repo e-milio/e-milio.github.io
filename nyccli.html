@@ -4,9 +4,19 @@
   <head>
   	<title>Welcome to emilio.click!</title>
   	<link rel="stylesheet" type="text/css" href="assets/sstyle.css" />
-    <link href='http://fonts.googleapis.com/css?family=Courgette&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 100%;
+        margin: auto;
+    }
+    </style>
    </head>
    <body>
       <div id="container">
@@ -16,9 +26,39 @@
           </a>
         </div>
         <div id="contentContainer">
-          <p></p><iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/252239965/content?start_page=1&view_mode=scroll&show_recommendations=true" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" id="doc_49537" width="100%" height="600" frameborder="0"></iframe>
+
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="assets/nyccli51.png" alt="img">
+              </div>
+
+              <div class="item">
+                <img src="assets/nyccli52.png" alt="img">
+              </div>
+
+              <div class="item">
+                <img src="assets/nyccli53.png" alt="img">
+              </div>
+
+              <div class="item">
+                <img src="assets/nyccli54.png" alt="img">
+              </div>
+            </div>
+
+        </div>
      			<p>
-            This is the 5th Version of an informational comic book about the benefits of Community Land Trusts in NYC designed with the Education and Outreach Group of the <a href="http://nyccli.org">New York City Community Land Initiative</a>. The Comic will be printed on one side of a folding 32 x 40" poster, the other side will have an infographic version of theinformation shared through narrative in the comic book. We have been wrking on this project since August 2014 and have been meeting bi-monthly to share our progress. Stay tuned and visit <a href="http://nyccli.org">NYCCLI's Website</a> for more information about their work
+            <br>
+            This is the 5th Version of an informational comic book about the benefits of Community Land Trusts in NYC designed with the Education and Outreach Committee of the <a href="http://nyccli.org">New York City Community Land Initiative</a>. The Comic will be printed on one side of a folding 32 x 40" poster, the other side will have an infographic version of theinformation shared through narrative in the comic book. We have been wrking on this project since August 2014 and have been meeting bi-monthly to share our progress. Stay tuned and visit <a href="http://nyccli.org">NYCCLI's Website</a> for more information about their work
           </p>
         </div>
    		</div>
