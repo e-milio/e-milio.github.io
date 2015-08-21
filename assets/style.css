@@ -51,9 +51,12 @@ body {
 	}
 }
 
-#header {
+header {
 	width:300px;
 	margin: auto;
+}
+header img{
+	width: 100%;
 }
 
 #container {
@@ -64,36 +67,39 @@ body {
 
 #buttonContainer {
 	width: 100%;
-	max-width: 1000px;
 	margin: auto;
+	text-align: center;
 }
 
 #button {
 	margin: 10px;
-	display: inline-block;
+	text-align: center;
 }
 
-#button a,
-#button a>img {
-	display: block;
+#button>a,
+#button img {
+	width: 100%;
 }
 
 /* Affects windows that are wider than 414px wide */
-@media all and (min-width: 414px) {
-	
+@media all and (max-width: 960px) {
 	#container {
-		width: 100%;
-		max-width: 320px;
-		margin: auto;
+		max-width: 500px;
 	}
 
-	#buttonContainer {
+}
+
+@media all and (min-width: 960px) {
+
+	#container {
 		width: 100%;
-		max-width: 320px;
+		max-width: 970px;
 		margin: auto;
+		text-align: center;
 	}
 
 	#button {
+		width: 300px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		display: inline-block;
