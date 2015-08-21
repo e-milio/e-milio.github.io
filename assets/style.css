@@ -7,58 +7,56 @@ body {
 	-webkit-animation-duration: 30s;
 	-webkit-animation-direction: alternate;
 	-webkit-animation-iteration-count: infinite;
-	}
+}
 
-	@keyframes pulse {
+@keyframes pulse {
 	0% {
-	  background-color: white;
+		background-color: white;
 	}
 	20% {
-	  background-color: #ffdcdc;
+		background-color: #ffdcdc;
 	}
 	40% {
-	  background-color: white;
+		background-color: white;
 	}
 	60% {
-	  background-color: #dcf3ff;
+		background-color: #dcf3ff;
 	}
 	80% {
-	  background-color: white;
+		background-color: white;
 	}
 	100% {
-	  background-color: #dcffea;
+		background-color: #dcffea;
 	}
-	}
+}
 
-	@-webkit-keyframes pulse {
+@-webkit-keyframes pulse {
 	0% {
-	  background-color: white;
+		background-color: white;
 	}
 	20% {
-	  background-color: #ffdcdc;
+		background-color: #ffdcdc;
 	}
 	40% {
-	  background-color: white;
+		background-color: white;
 	}
 	60% {
-	  background-color: #dcf3ff;
+		background-color: #dcf3ff;
 	}
 	80% {
-	  background-color: white;
+		background-color: white;
 	}
 	100% {
-	  background-color: #dcffea;
+		background-color: #dcffea;
 	}
-	}
+}
 
-#header {
+header {
 	width:300px;
 	margin: auto;
 }
-
-#button {
-	margin: 10px;
-	display: inline-block;
+header img{
+	width: 100%;
 }
 
 #container {
@@ -69,28 +67,42 @@ body {
 
 #buttonContainer {
 	width: 100%;
-	max-width: 1000px;
 	margin: auto;
+	text-align: center;
 }
 
-@media all and (width: < = 414px) {
-	
-	#container {
+#button {
+	margin: 10px;
+	text-align: center;
+}
+
+#button>a,
+#button img {
 	width: 100%;
-	max-width: 320px;
-	margin: auto;
+}
+
+/* Affects windows that are wider than 414px wide */
+@media all and (max-width: 960px) {
+	#container {
+		max-width: 500px;
 	}
 
-	#buttonContainer {
-	width: 100%;
-	max-width: 320px;
-	margin: auto;
+}
+
+@media all and (min-width: 960px) {
+
+	#container {
+		width: 100%;
+		max-width: 970px;
+		margin: auto;
+		text-align: center;
 	}
 
 	#button {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	display: inline-block;
+		width: 300px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: inline-block;
 	}
 
 }
