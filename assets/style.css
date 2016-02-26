@@ -1,96 +1,54 @@
+
 body {
-	animation-name: pulse;
-	animation-duration: 30s;
-	animation-direction: alternate;
-	animation-iteration-count: infinite;
-	-webkit-animation-name: pulse;
-	-webkit-animation-duration: 30s;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count: infinite;
-	}
-
-	@keyframes pulse {
-	0% {
-	  background-color: white;
-	}
-	20% {
-	  background-color: #ffdcdc;
-	}
-	40% {
-	  background-color: white;
-	}
-	60% {
-	  background-color: #dcf3ff;
-	}
-	80% {
-	  background-color: white;
-	}
-	100% {
-	  background-color: #dcffea;
-	}
-	}
-
-	@-webkit-keyframes pulse {
-	0% {
-	  background-color: white;
-	}
-	20% {
-	  background-color: #ffdcdc;
-	}
-	40% {
-	  background-color: white;
-	}
-	60% {
-	  background-color: #dcf3ff;
-	}
-	80% {
-	  background-color: white;
-	}
-	100% {
-	  background-color: #dcffea;
-	}
-	}
-
-#header {
-	width:300px;
-	margin: auto;
+	background-color: #F8F8F8;
 }
 
-#button {
-	margin: 10px;
-	display: inline-block;
+
+#projectBody {
+width: 200px;
+border: 1px dashed px;
+margin-top: 10px;
 }
 
-#container {
-	width: 100%;
-	max-width: 1000px;
-	margin: auto;
+#projectBody img {
+float: left;
+clear: left;
 }
 
-#buttonContainer {
-	width: 100%;
-	max-width: 1000px;
-	margin: auto;
+
+
+
+h1 {
+    margin-left: 5%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 200%;
+    color: black;
 }
 
-@media all and (width: < = 414px) {
-	
-	#container {
-	width: 100%;
-	max-width: 320px;
-	margin: auto;
-	}
-
-	#buttonContainer {
-	width: 100%;
-	max-width: 320px;
-	margin: auto;
-	}
-
-	#button {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	display: inline-block;
-	}
-
+h2 {
+    margin-left: 5%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 200%;
+    color: blue;
 }
+
+p {
+    margin-top: -10px;
+    margin-left: 5%;
+	margin-right: 30%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 80%;
+    line-height: 150%;
+}
+
+a {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
