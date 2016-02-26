@@ -3,21 +3,6 @@ body {
 	background-color: #F8F8F8;
 }
 
-
-#projectBody {
-width: 200px;
-border: 1px dashed px;
-margin-top: 10px;
-}
-
-#projectBody img {
-float: left;
-clear: left;
-}
-
-
-
-
 h1 {
     margin-left: 5%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
