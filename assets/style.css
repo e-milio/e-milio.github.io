@@ -1,6 +1,7 @@
 
 body {
 	background-color: #F8F8F8;
+    margin-right: 30%;
 }
 
 h1 {
@@ -22,7 +23,6 @@ h2 {
 p {
     margin-top: -10px;
     margin-left: 5%;
-	margin-right: 30%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 80%;
     line-height: 150%;
