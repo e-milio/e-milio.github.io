@@ -1,6 +1,7 @@
 
 body {
-	background-color: #F8F8F8;
+	background-color: #f4f1ee;
+    margin-bottom: 100px;
     
 }
 
@@ -24,6 +25,7 @@ h2 {
 p {
     margin-top: -10px;
     margin-left: 5%;
+    max-width: 615px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 80%;
     line-height: 150%;
