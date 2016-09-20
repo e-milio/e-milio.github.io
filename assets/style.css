@@ -78,3 +78,67 @@ a:hover {
 #btnControlFour:checked + label > img {
     height: 400px;
 }
+
+#btnControlFive {
+    display: none;
+}
+
+#btnControlFive:checked + label > img {
+    height: 400px;
+}
+
+#btnControlSix {
+    display: none;
+}
+
+#btnControlSix:checked + label > img {
+    height: 400px;
+}
+
+#btnControlSeven {
+    display: none;
+}
+
+#btnControlSeven:checked + label > img {
+    height: 400px;
+}
+
+#btnControlEight {
+    display: none;
+}
+
+#btnControlEight:checked + label > img {
+    height: 400px;
+}
+
+#btnControlNine {
+    display: none;
+}
+
+#btnControlNine:checked + label > img {
+    height: 400px;
+}
+
+#btnControlTen {
+    display: none;
+}
+
+#btnControlTen:checked + label > img {
+    height: 400px;
+}
+
+#btnControlEleven {
+    display: none;
+}
+
+#btnControlEleven:checked + label > img {
+    height: 400px;
+}
+
+#btnControlTwelve {
+    display: none;
+}
+
+#btnControlTwelve:checked + label > img {
+    height: 400px;
+}
