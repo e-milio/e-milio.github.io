@@ -2,11 +2,14 @@
 body {
 	background-color: #f4f1ee;
     margin-bottom: 100px;
-    
+    margin-left: 5%;
+}
+
+img {
+    height: 40px;
 }
 
 h1 {
-    margin-left: 5%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 100%;
     line-height: 200%;
@@ -14,7 +17,7 @@ h1 {
 }
 
 h2 {
-    margin-left: 5%;
+
     margin-right: 30%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 100%;
@@ -24,7 +27,6 @@ h2 {
 
 p {
     margin-top: -10px;
-    margin-left: 5%;
     max-width: 600px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 80%;
@@ -40,3 +42,39 @@ a:hover {
     text-decoration: underline;
 }
 
+.enlarge:on-click {
+    transform:scale(2,2);
+    transform-origin:0 0;
+}
+
+#btnControl {
+    display: none;
+}
+
+#btnControl:checked + label > img {
+    height: 400px;
+}
+
+#btnControlTwo {
+    display: none;
+}
+
+#btnControlTwo:checked + label > img {
+    height: 400px;
+}
+
+#btnControlThree {
+    display: none;
+}
+
+#btnControlThree:checked + label > img {
+    height: 400px;
+}
+
+#btnControlFour {
+    display: none;
+}
+
+#btnControlFour:checked + label > img {
+    height: 400px;
+}
