@@ -142,3 +142,19 @@ a:hover {
 #btnControlTwelve:checked + label > img {
     height: 400px;
 }
+
+#btnControlThirteen {
+    display: none;
+}
+
+#btnControlThirteen:checked + label > img {
+    height: 400px;
+}
+
+#btnControlFourteen {
+    display: none;
+}
+
+#btnControlFourteen:checked + label > img {
+    height: 400px;
+}
