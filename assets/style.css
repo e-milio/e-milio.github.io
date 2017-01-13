@@ -151,6 +151,14 @@ a:hover {
     height: 400px;
 }
 
+#btnControlFourteen {
+    display: none;
+}
+
+#btnControlFourteen:checked + label > img {
+    height: 400px;
+}
+
 #btnControlFifteen {
     display: none;
 }
