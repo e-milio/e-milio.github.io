@@ -196,3 +196,27 @@ a:hover {
 #btnControlEighteen:checked + label > img {
     height: 400px;
 }
+
+#btnControlNineteen {
+    display: none;
+}
+
+#btnControlNineteen:checked + label > img {
+    height: 400px;
+}
+
+#btnControlStp {
+    display: none;
+}
+
+#btnControlStp:checked + label > img {
+    height: 400px;
+}
+
+#btnControlPanel {
+    display: none;
+}
+
+#btnControlPanel:checked + label > img {
+    height: 400px;
+}
