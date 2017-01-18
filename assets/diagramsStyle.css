@@ -1,0 +1,46 @@
+
+body {
+	background-color: #f4f1ee;
+    margin-bottom: 100px;
+    margin-left: 5%;
+}
+
+
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 200%;
+    color: black;
+}
+
+h2 {
+
+    margin-right: 30%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 200%;
+    color: blue;
+}
+
+p {
+    margin-top: -10px;
+    max-width: 600px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 80%;
+    line-height: 150%;
+}
+
+a {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    height: 400px;
+    transition:all 0.3s ease;
+    padding: 20px;
+}

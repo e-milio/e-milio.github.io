@@ -180,3 +180,19 @@ a:hover {
 #btnControlSixteen:checked + label > img {
     height: 400px;
 }
+
+#btnControlSeventeen {
+    display: none;
+}
+
+#btnControlSeventeen:checked + label > img {
+    height: 400px;
+}
+
+#btnControlEighteen {
+    display: none;
+}
+
+#btnControlEighteen:checked + label > img {
+    height: 400px;
+}
