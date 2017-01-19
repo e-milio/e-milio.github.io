@@ -220,3 +220,11 @@ a:hover {
 #btnControlPanel:checked + label > img {
     height: 400px;
 }
+
+#btnControlDiagrams {
+    display: none;
+}
+
+#btnControlDiagrams:checked + label > img {
+    height: 400px;
+}
