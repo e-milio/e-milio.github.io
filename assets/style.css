@@ -205,6 +205,14 @@ a:hover {
     height: 400px;
 }
 
+#btnControl20 {
+    display: none;
+}
+
+#btnControl20:checked + label > img {
+    height: 400px;
+}
+
 #btnControlStp {
     display: none;
 }
