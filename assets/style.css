@@ -236,3 +236,35 @@ a:hover {
 #btnControlDiagrams:checked + label > img {
     height: 400px;
 }
+
+#btnControllp1 {
+    display: none;
+}
+
+#btnControllp1:checked + label > img {
+    height: 400px;
+}
+
+#btnControllp2 {
+    display: none;
+}
+
+#btnControllp2:checked + label > img {
+    height: 400px;
+}
+
+#btnControllp3 {
+    display: none;
+}
+
+#btnControllp3:checked + label > img {
+    height: 400px;
+}
+
+#btnControllp4 {
+    display: none;
+}
+
+#btnControllp4:checked + label > img {
+    height: 400px;
+}
