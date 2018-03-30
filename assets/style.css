@@ -268,3 +268,11 @@ a:hover {
 #btnControllp4:checked + label > img {
     height: 400px;
 }
+
+#btnControllp5 {
+    display: none;
+}
+
+#btnControllp5:checked + label > img {
+    height: 400px;
+}
