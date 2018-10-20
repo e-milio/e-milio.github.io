@@ -1,8 +1,7 @@
-function myFunction() {
-    var items = [];
-    document.getElementById("demo").innerHTML = items;
+var items = [];
+document.getElementById("demo").innerHTML = items;
 
-    function myFunction() {
+function myFunction() {
         items.push("<br>Another Item");
         document.getElementById("demo").innerHTML = items;
     }
