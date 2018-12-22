@@ -1,23 +1,40 @@
+@media only screen and (max-width: 600px) {
+}
 
 body {
     background-color: #f4f1ee;
     margin-bottom: 100px;
     margin-left: 5%;
+    margin-top: 2%;
 }
 
 p.mainMenu {
-    margin-top: 20px;
     max-width: 600px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-decoration: bold;
     font-size: 100%;
-    line-height: 150%;
     color: black;
+}
+
+p.category {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    color: black;
+    font-style: bold;
+}
+
+p.project {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    color: black;
+    font-style: oblique;
 }
 
 a.mainMenu {
     text-decoration: none;
     color: black;
+    padding-right: 20px;
+    line-height: 225%;
 }
 
 a.mainMenu:hover {
