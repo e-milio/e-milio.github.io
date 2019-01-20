@@ -8,6 +8,19 @@ body {
     margin-top: 2%;
 }
 
+ul {
+    margin-top: -10px;
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 80%;
+    line-height: 150%;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
 p.mainMenu {
     max-width: 600px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
