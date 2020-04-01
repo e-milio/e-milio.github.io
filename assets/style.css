@@ -43,6 +43,15 @@ p.project {
     font-style: oblique;
 }
 
+p.description {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+div.gallery {
+    padding-top: 50px;
+}
+
 a.mainMenu {
     text-decoration: none;
     color: black;

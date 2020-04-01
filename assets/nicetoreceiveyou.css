@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient(to right, #f8f99f, #76ba44, #d3e084);
+}
+
+.mirror {
+	width: 98%;
+	height: 98%;
+	background-color: black;
+	position: absolute;
+  	left: 1%;
+  	top: 1%;
+}
