@@ -9,18 +9,17 @@ div.gradient{
 	position: absolute;
   	left: 0;
   	top: 0;
-  	cursor: none;
 }
 
-div.black {
+div.text {
 	width: 98%;
 	height: 98%;
 	background-color: black;
 	position: absolute;
   	left: 1%;
   	top: 1%;
-  	cursor: none;
 }
+
 
 a {
 	background-color: #1c1c1c;
@@ -31,13 +30,18 @@ a {
 	font-weight: 400;
 	padding: 8px;
 	position: absolute;
-	left: 1%;
-	bottom: 1%;
-	animation: cssAnimation 0s 10s forwards;
-  	visibility: hidden;
-  	cursor: none;
+	left: 0;
+	bottom: 0px;
 }
 
-@keyframes cssAnimation {
-  to   { visibility: visible; }
+a:hover span {
+	display:none;
+}
+
+a:hover:before {
+	content:"Emilio Martínez Poppe, 2020";
+}
+
+a:visited {
+  color: white;
 }
