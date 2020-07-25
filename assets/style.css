@@ -29,6 +29,14 @@ p.mainMenu {
     color: black;
 }
 
+ul.mainMenu {
+    max-width: 600px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: bold;
+    font-size: 100%;
+    color: black;
+}
+
 p.category {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 100%;
