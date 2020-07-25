@@ -25,11 +25,10 @@ p.mainMenu {
     max-width: 600px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-decoration: bold;
-    font-size: 100%;
     color: black;
 }
 
-ul.mainMenu {
+p.menu {
     max-width: 600px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-decoration: bold;
@@ -61,13 +60,27 @@ div.gallery {
 }
 
 a.mainMenu {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    text-decoration: none;
+    color: #983efb;
+    padding-right: 20px;
+    line-height: 225%;
+}
+
+a.mainMenu:hover {
+    text-decoration: underline;
+    color: #983efb;
+}
+
+a.menu {
     text-decoration: none;
     color: black;
     padding-right: 20px;
     line-height: 225%;
 }
 
-a.mainMenu:hover {
+a.menu:hover {
     text-decoration: underline;
     color: black;
 }
